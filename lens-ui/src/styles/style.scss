@@ -1,0 +1,22 @@
+html {
+  overflow-y: initial;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.router-link-active { 
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+$border-light-color: #ccc;
+$border-dark-color: #212121;
+
+@import "./scrollbar.scss";
+@import "vendor/roboto/roboto";
